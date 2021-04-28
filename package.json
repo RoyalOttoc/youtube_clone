@@ -1,0 +1,19 @@
+{
+  "name": "youtube_clone_2021",
+  "version": "1.0.0",
+  "description": "youtube clone built using NodeJS, Express, MongoDB and ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyalOttoc/youtube_clone.git"
+  },
+  "author": "Jong Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoyalOttoc/youtube_clone/issues"
+  },
+  "homepage": "https://github.com/RoyalOttoc/youtube_clone#readme"
+}
