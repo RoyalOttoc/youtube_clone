@@ -2,10 +2,9 @@
   "name": "youtube_clone_2021",
   "version": "1.0.0",
   "description": "youtube clone built using NodeJS, Express, MongoDB and ES6",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
