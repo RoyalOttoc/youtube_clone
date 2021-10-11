@@ -5,8 +5,6 @@ import userRouter from './routers/userRouter';
 import videoRouter from './routers/videoRouter';
 import pug from 'pug';
 
-const PORT = 4000;
-
 const app = express();
 const logger = morgan('dev');
 
@@ -18,7 +16,4 @@ app.use('/', globalRouter);
 app.use('/users', userRouter);
 app.use('/videos', videoRouter);
 
-const handleListening = () => {
-  console.log(`✅ Server listening to http://localhost:${PORT} 🚀`);
-};
-app.listen(PORT, handleListening);
+export default app;

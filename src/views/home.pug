@@ -3,15 +3,12 @@ include mixins/video
 
 block content
   nav
-    ul
-      li 
-        if !fakeUser.status
-          a(href='/login') Login
-        else
-          a(href='/logout') Logout
+   
     ul 
       li 
         a(href="/videos/upload") Upload
   h2 Welcome! you will see trending videos here!
   each video in videos
     +video(video)
+  else 
+    p Sorry! Nothing found!
