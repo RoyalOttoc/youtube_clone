@@ -8,5 +8,6 @@ globalRouter.get('/join', join);
 globalRouter.get('/login', login);
 globalRouter.get('/search', search);
 globalRouter.get('/logout', logout);
+globalRouter.get('/search', search);
 
 export default globalRouter;
