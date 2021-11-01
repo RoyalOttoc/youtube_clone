@@ -1,18 +1,30 @@
-# Youtube Clone
+# Youtube Clone Project
 
-/ -> Home
-/join -> Join
-/login -> Login
-/search -> Search
+Make Video update platform like Youtube using express JS, Vanilla JS, PUG
 
-/users/:id -> See user
-/users/logout -> Log out
-/users/edit -> Edit my profile
-/users/delete -> Delete my profile
+Demo:
+Blog:
 
-/videos/:id -> See Video
-/videos/:id/edit -> Edit video
-/videos/:id/delete -> Delete video
+- the Blog shows all steps how the project has been developed.
 
-/videos/comments comments
-/videos/comments/delete delete comments
+MVC model
+
+Models
+
+- Video.js
+- User.js
+
+Views
+
+- home
+- join
+- login
+- search
+- upload video
+- edit video
+- etc
+
+Controllers
+
+- userController.js
+- videoController.js
